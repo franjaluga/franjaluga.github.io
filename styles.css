@@ -7,6 +7,10 @@ h1, h2, h3, h4, h5, p{
     font-family: 'Inter', sans-serif;
 }
 
+a{
+    text-decoration: none;
+}
+
 @media (max-width : 720px) {
 
     .panel-parent{
@@ -222,8 +226,13 @@ h1, h2, h3, h4, h5, p{
     }
 
     #ban{
-        height: 342px;
+        height: 500px;
         margin: 0 0 0 auto;
+        margin-top: -150px;
+    }
+
+    #includes{
+        margin-top: -50px;
     }
 
     h3{
@@ -364,15 +373,19 @@ h1, h2, h3, h4, h5, p{
 
     #zeb{
         width: 100px;
-        margin-left: 250px;
+        margin-left: 350px;
         transform: scaleX(-1);
     }
 
-    #lb{
+    .mi-footer{
+        display: flex;
+    }
 
+    #lb{
         width: 60px;
         margin-bottom: 50px;
-    
+        margin-top: 50px;
+        margin-left: 5%;
     }
 
 }
